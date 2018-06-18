@@ -5,9 +5,6 @@ CMakeFiles/path_planning.dir/src/PathPlanner.cpp.o: ../src/PathPlanner.cpp
 CMakeFiles/path_planning.dir/src/PathPlanner.cpp.o: ../src/PathPlanner.h
 CMakeFiles/path_planning.dir/src/PathPlanner.cpp.o: ../src/utils.h
 
-CMakeFiles/path_planning.dir/src/VehicleState.cpp.o: ../src/VehicleState.cpp
-CMakeFiles/path_planning.dir/src/VehicleState.cpp.o: ../src/VehicleState.h
-
 CMakeFiles/path_planning.dir/src/main.cpp.o: ../src/Eigen-3.3/Eigen/Cholesky
 CMakeFiles/path_planning.dir/src/main.cpp.o: ../src/Eigen-3.3/Eigen/Core
 CMakeFiles/path_planning.dir/src/main.cpp.o: ../src/Eigen-3.3/Eigen/Householder

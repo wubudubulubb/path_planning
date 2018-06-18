@@ -150,33 +150,6 @@ src/PathPlanner.cpp.s:
 	$(MAKE) -f CMakeFiles/path_planning.dir/build.make CMakeFiles/path_planning.dir/src/PathPlanner.cpp.s
 .PHONY : src/PathPlanner.cpp.s
 
-src/VehicleState.o: src/VehicleState.cpp.o
-
-.PHONY : src/VehicleState.o
-
-# target to build an object file
-src/VehicleState.cpp.o:
-	$(MAKE) -f CMakeFiles/path_planning.dir/build.make CMakeFiles/path_planning.dir/src/VehicleState.cpp.o
-.PHONY : src/VehicleState.cpp.o
-
-src/VehicleState.i: src/VehicleState.cpp.i
-
-.PHONY : src/VehicleState.i
-
-# target to preprocess a source file
-src/VehicleState.cpp.i:
-	$(MAKE) -f CMakeFiles/path_planning.dir/build.make CMakeFiles/path_planning.dir/src/VehicleState.cpp.i
-.PHONY : src/VehicleState.cpp.i
-
-src/VehicleState.s: src/VehicleState.cpp.s
-
-.PHONY : src/VehicleState.s
-
-# target to generate assembly for a file
-src/VehicleState.cpp.s:
-	$(MAKE) -f CMakeFiles/path_planning.dir/build.make CMakeFiles/path_planning.dir/src/VehicleState.cpp.s
-.PHONY : src/VehicleState.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -243,9 +216,6 @@ help:
 	@echo "... src/PathPlanner.o"
 	@echo "... src/PathPlanner.i"
 	@echo "... src/PathPlanner.s"
-	@echo "... src/VehicleState.o"
-	@echo "... src/VehicleState.i"
-	@echo "... src/VehicleState.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
